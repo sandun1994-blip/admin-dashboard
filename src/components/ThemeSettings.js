@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ThemeSetting = () => {
+const ThemeSettings = () => {
   return (
     <div>ThemeSetting</div>
   )
 }
 
-export default ThemeSetting
+export default ThemeSettings
