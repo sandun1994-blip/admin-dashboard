@@ -3165,7 +3165,7 @@ export const stackedChartData = [
     { x: 'July', y: 159.9 },
   ],
   [
-    { x: 'Jan', y: 111.1 },
+    { x: 'Jan', y: 1111.1 },
     { x: 'Feb', y: 127.3 },
     { x: 'Mar', y: 143.4 },
     { x: 'Apr', y: 159.9 },
@@ -3206,12 +3206,13 @@ export const stackedPrimaryXAxis = {
   lineStyle: { width: 0 },
   labelIntersectAction: 'Rotate45',
   valueType: 'Category',
+  stripLines: [{ start: 1, size: 1, isRepeat: true, repeatEvery: 2, color: 'rgba(167,169,171, 0.3)' }]
 };
 
 export const stackedPrimaryYAxis = {
   lineStyle: { width: 0 },
   minimum: 100,
-  maximum: 400,
+  maximum: 600,
   interval: 100,
   majorTickLines: { width: 0 },
   majorGridLines: { width: 1 },
